@@ -6,11 +6,16 @@ reports.txt
 keys, reports (directory)
 
 1. question-answer generation according to pre-defined key words in directory keys
+
     python3 qg.py
-    # this process first simplify the original reports
-    # results are saved in a new directory: results
-    # main results include: simplified_reports.txt, patterns (i.e., the coding files), all_answers.txt, and all_questions.txt
-    # printed information:
+    
+   this process first simplify the original reports
+   
+   results are saved in a new directory: results
+   
+   main results include: simplified_reports.txt, patterns (i.e., the coding files), all_answers.txt, and all_questions.txt
+   
+   printed information:
         number of reports_files:  7430
         Number of yeshow_questions: 136
         Number of yes_questions: 28700
@@ -27,12 +32,18 @@ keys, reports (directory)
 
 
 2. statistics on the above generated question-answer pairs
+    
     python3 statistics.py
-    # results are saved in a new directory: qg-statistics
-    # main results include: select_questions.txt
+    
+    results are saved in a new directory: qg-statistics
+    
+    main results include: select_questions.txt
 
 
 3. question answering to augment the QA pairs
+    
     python3 qa.py
-    # results are saved in a new directory: qa
-    # main results include: qa_answers.txt, qa_questions.txt
+    
+    results are saved in a new directory: qa
+    
+    main results include: qa_answers.txt, qa_questions.txt
