@@ -4,6 +4,7 @@
 - qg.py, statistics.py, qa.py, utils.py
 - reports.txt
 - keys, reports (directory)
+- By the way, the directory reports include 7430 files, which is hard to upload all. reports.txt includes all the information, if you want to directly run qg.py, first recover all the reports files according to reports.txt
 
 1. question-answer generation according to pre-defined key words in directory keys
 
