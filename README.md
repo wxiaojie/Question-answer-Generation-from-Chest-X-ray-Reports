@@ -45,3 +45,7 @@
     - results are saved in a new directory: qa
     
     - main results include: qa_answers.txt, qa_questions.txt
+    
+    - main results include: qa_answers.txt, qa_questions.txt
+    
+4. This work is accepted as a full paper by the 32nd IEEE CBMS International Symposium on Computer-Based Medical Systems.
